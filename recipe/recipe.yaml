@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: pymzml
-  version: 2.5.11
+  version: "2.6.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/pymzml-${{ version }}.tar.gz
-  sha256: eeb981f6ea5583e7f29354b8e3fe9a10d3fa6673bbbd47765d4a0d2c9f288cbb
+  sha256: 7ee10b40a12bcaf966bb374618899167bb21ff470ac82d6354a91d9b1a6e7c81
 
 build:
   number: 0
